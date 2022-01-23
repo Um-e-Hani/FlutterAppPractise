@@ -30,9 +30,9 @@ class Home extends StatelessWidget {
         //), //RaisedButton
 
         child: IconButton(
-          onPressed: (
+          onPressed: () {
             print("You clicked!");
-          ) {},
+          },
           icon: Icon(
             Icons.alternate_email,
           ), // Icon
