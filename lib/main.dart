@@ -29,11 +29,6 @@ class Home extends StatelessWidget {
           color: Colors.red[600],
         ), //RaisedButton
       ), //Center
-      floatingActionButton: FloatingActionButton(
-        child: Text("Press!"),
-        onPressed: () {},
-        backgroundColor: Colors.red[600],
-      ), //FloatingActionButton
     ); //Scaffold
   }
 }
