@@ -21,7 +21,7 @@ class Home extends StatelessWidget {
             color: Colors.white,
           ), // Icon
           label: Text(
-            "Mail Me",
+            "Mail Me!",
             style: TextStyle(
               color: Colors.white,
             ),
