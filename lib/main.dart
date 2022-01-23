@@ -13,6 +13,8 @@ void main() => runApp(MaterialApp(
             style: TextStyle(
               fontSize: 30.0,
               fontWeight: FontWeight.bold,
+              letterSpacing: 2.0,
+              color: Colors.grey[600],
             ), // TextStyle
           ), // Text
         ), //Center
