@@ -79,6 +79,6 @@ class Home extends StatelessWidget {
           ), //Container
         ],
       ), //Column
-    ), //Scaffold
+    ); //Scaffold
   } // build
 } //class
