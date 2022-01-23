@@ -16,7 +16,7 @@ class Home extends StatelessWidget {
       body: Center(
         child: Icon(
           Icons.airport_shuttle,
-          color = Colors.lightBlue,
+          color: Colors.lightBlue,
         ), //Icon
       ), //Center
       floatingActionButton: FloatingActionButton(
