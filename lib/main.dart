@@ -16,7 +16,7 @@ class Home extends StatelessWidget {
       body: Center(
         child: Icon(
           Icons.airport_shuttle,
-          color: Colors.lightBlue,
+          color: Colors.red[600],
           size: 50.0,
         ), //Icon
       ), //Center
