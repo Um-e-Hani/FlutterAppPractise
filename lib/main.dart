@@ -27,7 +27,7 @@ class Home extends StatelessWidget {
           ), // Container
           Container(
             color: Colors.red[500],
-            padding: EdgeInsets.all(20.0),
+            padding: EdgeInsets.all(25.0),
           ), // Container
           Container(
             color: Colors.red[400],
@@ -39,7 +39,7 @@ class Home extends StatelessWidget {
           ), // Container
           Container(
             color: Colors.red[200],
-            padding: EdgeInsets.all(20.0),
+            padding: EdgeInsets.all(25.0),
           ), // Container
           Container(
             color: Colors.red[100],
