@@ -15,7 +15,7 @@ class Home extends StatelessWidget {
       ), //AppBar
       body: Center(
         child: Image(
-          image: NetworkImage('https://images.pexels.com/photos/358238/pexels-photo-358238.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'),
+          image: AssetImage(''),
         ), //Image
       ), //Center
       floatingActionButton: FloatingActionButton(
