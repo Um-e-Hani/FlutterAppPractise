@@ -14,7 +14,9 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ), //AppBar
       body: Center(
-        child: Image.asset('assets/scenery1.jpg'),
+        child: Icon(
+          Icons.airport_shuttle,
+        ), //Icon
       ), //Center
       floatingActionButton: FloatingActionButton(
         child: Text("Press!"),
