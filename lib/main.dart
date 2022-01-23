@@ -18,9 +18,13 @@ class Home extends StatelessWidget {
           onPressed: () {},
           icon: Icon(
             Icons.mail,
+            color: Colors.white;
           ), // Icon
-          label: Text("Mail Me"),
-          color: Colors.white,
+          label: Text(
+            "Mail Me",
+            color: Colors.white,
+            ), //Text
+          color: Colors.red[600],
         ), //RaisedButton
       ), //Center
       floatingActionButton: FloatingActionButton(
