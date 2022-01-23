@@ -18,7 +18,7 @@ class Home extends StatelessWidget {
           onPressed: () {},
           icon: Icon(
             Icons.mail,
-            color: Colors.white;
+            color: Colors.white,
           ), // Icon
           label: Text(
             "Mail Me",
