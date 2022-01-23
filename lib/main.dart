@@ -14,16 +14,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ), //AppBar
       body: Center(
-        child: Text(
-          "Heyy",
-          style: TextStyle(
-            fontSize: 30.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey[600],
-            fontFamily: 'IndieFlower',
-          ), // TextStyle
-        ), // Text
+        child: Image.asset('assets/scenery1.jpg'),
       ), //Center
       floatingActionButton: FloatingActionButton(
         child: Text("Press!"),
