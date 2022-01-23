@@ -11,7 +11,7 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text("My first App"), //Text
         centerTitle: true,
-        backgroundColor: Colors.red[600],
+        backgroundColor: Colors.amber[600],
       ), //AppBar
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -23,35 +23,15 @@ class Home extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 Container(
-                  color: Colors.red[600],
+                  color: Colors.amber[600],
                   padding: EdgeInsets.all(50.0),
                 ), // Container
                 Container(
-                  color: Colors.red[200],
+                  color: Colors.amber[200],
                   padding: EdgeInsets.all(50.0),
                 ), // Container
                 Container(
-                  color: Colors.red[600],
-                  padding: EdgeInsets.all(50.0),
-                ), // Container
-              ],
-            ), //Row
-          ), //Container
-          Container(
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: <Widget>[
-                Container(
-                  color: Colors.red[200],
-                  padding: EdgeInsets.all(50.0),
-                ), // Container
-                Container(
-                  color: Colors.red[600],
-                  padding: EdgeInsets.all(50.0),
-                ), // Container
-                Container(
-                  color: Colors.red[200],
+                  color: Colors.amber[600],
                   padding: EdgeInsets.all(50.0),
                 ), // Container
               ],
@@ -63,35 +43,15 @@ class Home extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 Container(
-                  color: Colors.red[600],
+                  color: Colors.amber[200],
                   padding: EdgeInsets.all(50.0),
                 ), // Container
                 Container(
-                  color: Colors.red[200],
+                  color: Colors.amber[600],
                   padding: EdgeInsets.all(50.0),
                 ), // Container
                 Container(
-                  color: Colors.red[600],
-                  padding: EdgeInsets.all(50.0),
-                ), // Container
-              ],
-            ), //Row
-          ), //Container
-          Container(
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: <Widget>[
-                Container(
-                  color: Colors.red[200],
-                  padding: EdgeInsets.all(50.0),
-                ), // Container
-                Container(
-                  color: Colors.red[600],
-                  padding: EdgeInsets.all(50.0),
-                ), // Container
-                Container(
-                  color: Colors.red[200],
+                  color: Colors.amber[200],
                   padding: EdgeInsets.all(50.0),
                 ), // Container
               ],
@@ -103,15 +63,55 @@ class Home extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 Container(
-                  color: Colors.red[600],
+                  color: Colors.amber[600],
                   padding: EdgeInsets.all(50.0),
                 ), // Container
                 Container(
-                  color: Colors.red[200],
+                  color: Colors.amber[200],
                   padding: EdgeInsets.all(50.0),
                 ), // Container
                 Container(
-                  color: Colors.red[600],
+                  color: Colors.amber[600],
+                  padding: EdgeInsets.all(50.0),
+                ), // Container
+              ],
+            ), //Row
+          ), //Container
+          Container(
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
+                Container(
+                  color: Colors.amber[200],
+                  padding: EdgeInsets.all(50.0),
+                ), // Container
+                Container(
+                  color: Colors.amber[600],
+                  padding: EdgeInsets.all(50.0),
+                ), // Container
+                Container(
+                  color: Colors.amber[200],
+                  padding: EdgeInsets.all(50.0),
+                ), // Container
+              ],
+            ), //Row
+          ), //Container
+          Container(
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
+                Container(
+                  color: Colors.amber[600],
+                  padding: EdgeInsets.all(50.0),
+                ), // Container
+                Container(
+                  color: Colors.amber[200],
+                  padding: EdgeInsets.all(50.0),
+                ), // Container
+                Container(
+                  color: Colors.amber[600],
                   padding: EdgeInsets.all(50.0),
                 ), // Container
               ],
