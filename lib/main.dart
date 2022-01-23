@@ -20,19 +20,19 @@ class Home extends StatelessWidget {
           Container(
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
                 Container(
                   color: Colors.red[600],
-                  padding: EdgeInsets.all(65.0),
+                  padding: EdgeInsets.all(45.0),
                 ), // Container
                 Container(
                   color: Colors.red[200],
-                  padding: EdgeInsets.all(65.0),
+                  padding: EdgeInsets.all(45.0),
                 ), // Container
                 Container(
                   color: Colors.red[600],
-                  padding: EdgeInsets.all(65.0),
+                  padding: EdgeInsets.all(45.0),
                 ), // Container
               ],
             ), //Row
@@ -40,19 +40,19 @@ class Home extends StatelessWidget {
           Container(
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
                 Container(
                   color: Colors.red[200],
-                  padding: EdgeInsets.all(65.0),
+                  padding: EdgeInsets.all(45.0),
                 ), // Container
                 Container(
                   color: Colors.red[600],
-                  padding: EdgeInsets.all(65.0),
+                  padding: EdgeInsets.all(45.0),
                 ), // Container
                 Container(
                   color: Colors.red[200],
-                  padding: EdgeInsets.all(65.0),
+                  padding: EdgeInsets.all(45.0),
                 ), // Container
               ],
             ), //Row
@@ -60,7 +60,7 @@ class Home extends StatelessWidget {
           Container(
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
                 Container(
                   color: Colors.red[600],
