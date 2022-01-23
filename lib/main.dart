@@ -11,7 +11,7 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text("My first App"), //Text
         centerTitle: true,
-        backgroundColor: Colors.amber[600],
+        backgroundColor: Colors.red[600],
       ), //AppBar
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
