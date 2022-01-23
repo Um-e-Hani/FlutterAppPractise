@@ -14,19 +14,20 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ), //AppBar
       body: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
-          Text("Hello World!"),
-          FlatButton(
-            onPressed: () {},
-            color: Colors.red[600],
-            child: Text("ClickMe"),
-          ), //FlatButton
           Container(
-            color: Colors.amber,
+            color: Colors.red[500],
             padding: EdgeInsets.all(20.0),
-            child: Text("Inside Container"),
+          ), // Container
+          Container(
+            color: Colors.red[300],
+            padding: EdgeInsets.all(20.0),
+          ), // Container
+          Container(
+            color: Colors.red[100],
+            padding: EdgeInsets.all(20.0),
           ), // Container
         ],
       ), //Row
