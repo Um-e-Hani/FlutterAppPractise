@@ -15,6 +15,7 @@ class Home extends StatelessWidget {
       ), //AppBar
       body: Container(
         color: Colors.red[100],
+        child: Text("Hello"), //Text
       ), //Container
       floatingActionButton: FloatingActionButton(
         child: Text("Press!"),
