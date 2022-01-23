@@ -25,7 +25,7 @@ class Home extends StatelessWidget {
           ), //FlatButton
           Container(
             color: Colors.amber,
-            padding: EdgeInsets.all(30.0),
+            padding: EdgeInsets.all(20.0),
             child: Text("Inside Container"),
           ), // Container
         ],
