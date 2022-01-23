@@ -22,8 +22,10 @@ class Home extends StatelessWidget {
           ), // Icon
           label: Text(
             "Mail Me",
-            color: Colors.white,
-            ), //Text
+            style: TextStyle(
+              color: Colors.white,
+            ),
+          ), //Text
           color: Colors.red[600],
         ), //RaisedButton
       ), //Center
