@@ -29,7 +29,7 @@ class Home extends StatelessWidget {
         //  color: Colors.red[600],
         //), //RaisedButton
 
-        ButtonTheme(
+        new ButtonTheme(
           minWidth: 200.0,
           height: 100.0,
           child: IconButton(
