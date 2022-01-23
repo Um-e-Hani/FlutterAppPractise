@@ -74,26 +74,26 @@ class Home extends StatelessWidget {
                   color: Colors.red[600],
                   padding: EdgeInsets.all(50.0),
                 ), // Container
+              ],
+            ), //Row
+          ), //Container
+          Container(
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
                 Container(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: <Widget>[
-                      Container(
-                        color: Colors.red[200],
-                        padding: EdgeInsets.all(50.0),
-                      ), // Container
-                      Container(
-                        color: Colors.red[600],
-                        padding: EdgeInsets.all(50.0),
-                      ), // Container
-                      Container(
-                        color: Colors.red[200],
-                        padding: EdgeInsets.all(50.0),
-                      ), // Container
-                    ],
-                  ), //Row
-                ), //Container
+                  color: Colors.red[200],
+                  padding: EdgeInsets.all(50.0),
+                ), // Container
+                Container(
+                  color: Colors.red[600],
+                  padding: EdgeInsets.all(50.0),
+                ), // Container
+                Container(
+                  color: Colors.red[200],
+                  padding: EdgeInsets.all(50.0),
+                ), // Container
               ],
             ), //Row
           ), //Container
