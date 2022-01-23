@@ -15,7 +15,9 @@ class Home extends StatelessWidget {
       ), //AppBar
       body: Center(
         child: FlatButton(
-          onPressed: () {},
+          onPressed: () {
+            print("YOU PRESSED BUTTON!");
+          },
           child: Text("Click!"),
           color: Colors.red[600],
         ), //RaisedButton
