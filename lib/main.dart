@@ -13,32 +13,14 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[600],
       ), //AppBar
-      body: Center(
-        //child: RaisedButton.icon(
-        //  onPressed: () {},
-        //  icon: Icon(
-        //    Icons.mail,
-        //    color: Colors.white,
-        //  ), // Icon
-        //  label: Text(
-        //    "Mail Me!",
-        //   style: TextStyle(
-        //      color: Colors.white,
-        //   ),
-        // ), //Text
-        //  color: Colors.red[600],
-        //), //RaisedButton
-
-        child: IconButton(
-          onPressed: () {
-            print("You clicked!");
-          },
-          icon: Icon(
-            Icons.alternate_email,
-          ), // Icon
-          color: Colors.red[600],
-        ), //IconButton
-      ), //Center
+      body: Container(
+        color: Colors.red[100],
+      ), //Container
+      floatingActionButton: FloatingActionButton(
+        child: Text("Press!"),
+        onPressed: () {},
+        backgroundColor: Colors.red[600],
+      ), //FloatingActionButton
     ); //Scaffold
   }
 }
