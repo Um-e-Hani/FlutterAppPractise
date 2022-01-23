@@ -33,6 +33,7 @@ class Home extends StatelessWidget {
           onPressed: () {},
           icon: Icon(
             Icons.alternate_email,
+            size: 50.0,
           ), // Icon
           color: Colors.red[600],
         ), //IconButton
