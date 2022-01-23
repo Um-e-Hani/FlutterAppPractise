@@ -14,20 +14,28 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ), //AppBar
       body: Center(
-        child: RaisedButton.icon(
+        //child: RaisedButton.icon(
+        //  onPressed: () {},
+        //  icon: Icon(
+        //    Icons.mail,
+        //    color: Colors.white,
+        //  ), // Icon
+        //  label: Text(
+        //    "Mail Me!",
+        //   style: TextStyle(
+        //      color: Colors.white,
+        //   ),
+        // ), //Text
+        //  color: Colors.red[600],
+        //), //RaisedButton
+
+        child: IconButton(
           onPressed: () {},
           icon: Icon(
-            Icons.mail,
-            color: Colors.white,
+            Icons.alternate_email,
           ), // Icon
-          label: Text(
-            "Mail Me!",
-            style: TextStyle(
-              color: Colors.white,
-            ),
-          ), //Text
           color: Colors.red[600],
-        ), //RaisedButton
+        ), //IconButton
       ), //Center
     ); //Scaffold
   }
