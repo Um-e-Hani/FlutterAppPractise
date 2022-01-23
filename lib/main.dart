@@ -18,11 +18,27 @@ class Home extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           Container(
+            color: Colors.red[600],
+            padding: EdgeInsets.all(20.0),
+          ), // Container
+          Container(
             color: Colors.red[500],
             padding: EdgeInsets.all(20.0),
           ), // Container
           Container(
+            color: Colors.red[400],
+            padding: EdgeInsets.all(20.0),
+          ), // Container
+          Container(
             color: Colors.red[300],
+            padding: EdgeInsets.all(20.0),
+          ), // Container
+          Container(
+            color: Colors.red[200],
+            padding: EdgeInsets.all(20.0),
+          ), // Container
+          Container(
+            color: Colors.red[100],
             padding: EdgeInsets.all(20.0),
           ), // Container
           Container(
