@@ -19,11 +19,11 @@ class Home extends StatelessWidget {
         children: <Widget>[
           Container(
             color: Colors.red[600],
-            padding: EdgeInsets.all(40.0),
+            padding: EdgeInsets.all(35.0),
           ), // Container
           Container(
             color: Colors.red[500],
-            padding: EdgeInsets.all(25.0),
+            padding: EdgeInsets.all(30.0),
           ), // Container
           Container(
             color: Colors.red[400],
