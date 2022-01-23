@@ -14,7 +14,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ), //AppBar
       body: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           Text("Hello World!"),
           FlatButton(
