@@ -38,24 +38,45 @@ class Home extends StatelessWidget {
             ), //Row
           ), //Container
           Container(
-            color: Colors.red[300],
-            padding: EdgeInsets.all(45.0),
-          ), // Container
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
+                Container(
+                  color: Colors.red[300],
+                  padding: EdgeInsets.all(45.0),
+                ), // Container
+                Container(
+                  color: Colors.red[200],
+                  padding: EdgeInsets.all(45.0),
+                ), // Container
+                Container(
+                  color: Colors.red[100],
+                  padding: EdgeInsets.all(45.0),
+                ), // Container
+              ],
+            ), //Row
+          ), //Container
           Container(
-            color: Colors.red[200],
-            padding: EdgeInsets.all(45.0),
-          ), // Container
-          Container(
-            color: Colors.red[100],
-            padding: EdgeInsets.all(45.0),
-          ), // Container
-        ],
-      ), //Row
-      floatingActionButton: FloatingActionButton(
-        child: Text("Press!"),
-        onPressed: () {},
-        backgroundColor: Colors.red[600],
-      ), //FloatingActionButton
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
+                Container(
+                  color: Colors.red[600],
+                  padding: EdgeInsets.all(45.0),
+                ), // Container
+                Container(
+                  color: Colors.red[500],
+                  padding: EdgeInsets.all(45.0),
+                ), // Container
+                Container(
+                  color: Colors.red[400],
+                  padding: EdgeInsets.all(45.0),
+                ), // Container
+              ],
+            ), //Row
+          ), //Container
     ); //Scaffold
   }
 }
