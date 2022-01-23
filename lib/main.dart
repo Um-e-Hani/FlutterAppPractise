@@ -29,16 +29,14 @@ class Home extends StatelessWidget {
         //  color: Colors.red[600],
         //), //RaisedButton
 
-        new ButtonTheme(
-          minWidth: 200.0,
-          height: 100.0,
-          child: IconButton(
-            onPressed: () {},
-            icon: Icon(
-              Icons.alternate_email,
-            ), // Icon
-            color: Colors.red[600],
-          ), //ButtonTheme
+        child: IconButton(
+          onPressed: (
+            print("You clicked!");
+          ) {},
+          icon: Icon(
+            Icons.alternate_email,
+          ), // Icon
+          color: Colors.red[600],
         ), //IconButton
       ), //Center
     ); //Scaffold
