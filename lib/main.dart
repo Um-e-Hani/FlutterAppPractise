@@ -14,7 +14,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ), //AppBar
       body: Container(
-        padding: EdgeInsets.symmetric(20.0, 50.0),
+        padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 50.0),
         color: Colors.red[100],
         child: Text("Hello"), //Text
       ), //Container
