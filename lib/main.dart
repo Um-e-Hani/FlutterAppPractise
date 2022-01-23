@@ -20,7 +20,7 @@ class Home extends StatelessWidget {
           Container(
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.stretch,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 Container(
                   color: Colors.red[600],
