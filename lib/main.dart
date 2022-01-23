@@ -31,11 +31,11 @@ class Home extends StatelessWidget {
           ), // Container
           Container(
             color: Colors.red[400],
-            padding: EdgeInsets.all(20.0),
+            padding: EdgeInsets.all(25.0),
           ), // Container
           Container(
             color: Colors.red[300],
-            padding: EdgeInsets.all(20.0),
+            padding: EdgeInsets.all(25.0),
           ), // Container
           Container(
             color: Colors.red[200],
