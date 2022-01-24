@@ -13,39 +13,43 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[600],
       ), //AppBar
-      body: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          Expanded(
-            flex: 7,
-            child: Image.asset("assets/scenery2.jpg"),
-          ), // Expanded
-          Expanded(
-            flex: 1,
-            child: Container(
-              padding: EdgeInsets.all(30.0),
-              color: Colors.cyan,
-              child: Text("1"),
-            ), //Container
-          ), //Expanded
-          Expanded(
-            flex: 1,
-            child: Container(
-              padding: EdgeInsets.all(30.0),
-              color: Colors.pinkAccent,
-              child: Text("2"),
-            ), //Container
-          ), //Expanded
-          Expanded(
-            flex: 1,
-            child: Container(
-              padding: EdgeInsets.all(30.0),
-              color: Colors.amber,
-              child: Text("3"),
-            ), //Container
-          ), //Expanded
+      body: Column(
+        childred: <Widget>[
+          crossAxisAlignment: CrossAxisAlignment.center,
+          Row(
+            children: <Widget>[
+              Expanded(
+                flex: 7,
+                child: Image.asset("assets/scenery2.jpg"),
+              ), // Expanded
+              Expanded(
+                flex: 1,
+                child: Container(
+                  padding: EdgeInsets.all(30.0),
+                  color: Colors.cyan,
+                  child: Text("1"),
+                ), //Container
+              ), //Expanded
+              Expanded(
+                flex: 1,
+                child: Container(
+                  padding: EdgeInsets.all(30.0),
+                  color: Colors.pinkAccent,
+                  child: Text("2"),
+                ), //Container
+              ), //Expanded
+              Expanded(
+                flex: 1,
+                child: Container(
+                  padding: EdgeInsets.all(30.0),
+                  color: Colors.amber,
+                  child: Text("3"),
+                ), //Container
+              ), //Expanded
+            ],
+          ), //Row
         ],
-      ), //Row
+      ), //Column
     ); //Scaffold
   } // build
 } //class
