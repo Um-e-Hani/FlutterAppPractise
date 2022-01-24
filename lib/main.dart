@@ -13,7 +13,7 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[600],
       ), //AppBar
-      body: Column(
+      body: Row(
         children: <Widget>[
           Container(
             padding: EdgeInsets.all(30.0),
