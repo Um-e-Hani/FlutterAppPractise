@@ -30,24 +30,24 @@ class Home extends StatelessWidget {
                   child: Text("1"),
                 ), //Container
               ), //Expanded
-              Expanded(
-                flex: 1,
-                child: Container(
-                  padding: EdgeInsets.all(30.0),
-                  color: Colors.pinkAccent,
-                  child: Text("2"),
-                ), //Container
-              ), //Expanded
-              Expanded(
-                flex: 1,
-                child: Container(
-                  padding: EdgeInsets.all(30.0),
-                  color: Colors.amber,
-                  child: Text("3"),
-                ), //Container
-              ), //Expanded
             ],
           ), //Row
+          Expanded(
+            flex: 1,
+            child: Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.pinkAccent,
+              child: Text("2"),
+            ), //Container
+          ), //Expanded
+          Expanded(
+            flex: 1,
+            child: Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.amber,
+              child: Text("3"),
+            ), //Container
+          ), //Expanded
         ],
       ), //Column
     ); //Scaffold
