@@ -33,7 +33,7 @@ class Home extends StatelessWidget {
             ],
           ), //Row
           Expanded(
-            flex: 1,
+            flex: 5,
             child: Container(
               padding: EdgeInsets.all(30.0),
               color: Colors.pinkAccent,
