@@ -14,111 +14,12 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ), //AppBar
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
-          Container(
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: <Widget>[
-                Container(
-                  color: Colors.red[600],
-                  padding: EdgeInsets.all(50.0),
-                ), // Container
-                Container(
-                  color: Colors.amber[200],
-                  padding: EdgeInsets.all(50.0),
-                ), // Container
-                Container(
-                  color: Colors.red[600],
-                  padding: EdgeInsets.all(50.0),
-                ), // Container
-              ],
-            ), //Row
-          ), //Container
-          Container(
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: <Widget>[
-                Container(
-                  color: Colors.amber[200],
-                  padding: EdgeInsets.all(50.0),
-                ), // Container
-                Container(
-                  color: Colors.red[600],
-                  padding: EdgeInsets.all(50.0),
-                ), // Container
-                Container(
-                  color: Colors.amber[200],
-                  padding: EdgeInsets.all(50.0),
-                ), // Container
-              ],
-            ), //Row
-          ), //Container
-          Container(
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: <Widget>[
-                Container(
-                  color: Colors.red[600],
-                  padding: EdgeInsets.all(50.0),
-                ), // Container
-                Container(
-                  color: Colors.amber[200],
-                  padding: EdgeInsets.all(50.0),
-                ), // Container
-                Container(
-                  color: Colors.red[600],
-                  padding: EdgeInsets.all(50.0),
-                ), // Container
-              ],
-            ), //Row
-          ), //Container
-          Container(
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: <Widget>[
-                Container(
-                  color: Colors.amber[200],
-                  padding: EdgeInsets.all(50.0),
-                ), // Container
-                Container(
-                  color: Colors.red[600],
-                  padding: EdgeInsets.all(50.0),
-                ), // Container
-                Container(
-                  color: Colors.amber[200],
-                  padding: EdgeInsets.all(50.0),
-                ), // Container
-              ],
-            ), //Row
-          ), //Container
-          Container(
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: <Widget>[
-                Container(
-                  color: Colors.red[600],
-                  padding: EdgeInsets.all(50.0),
-                ), // Container
-                Container(
-                  color: Colors.amber[200],
-                  padding: EdgeInsets.all(50.0),
-                ), // Container
-                Container(
-                  color: Colors.red[600],
-                  padding: EdgeInsets.all(50.0),
-                ), // Container
-              ],
-            ), //Row
-          ), //Container
+          Container(), //Container
+          Container(), //Container
+          Container(), //Container
         ],
-      ), //Column
+      ), //Row
     ); //Scaffold
   } // build
 } //class
