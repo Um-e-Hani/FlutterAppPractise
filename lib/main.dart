@@ -14,7 +14,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ), //AppBar
       body: Row(
-        crossAxisAlignment: CrossAxisAlignment.valus,
+        crossAxisAlignment: CrossAxisAlignment.values,
         children: <Widget>[
           Expanded(
             flex: 7,
