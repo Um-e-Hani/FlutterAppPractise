@@ -17,7 +17,7 @@ class Home extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           Row(
-            mainAxisAlignment: MainAxisAlignment.stretch,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               Expanded(
                 flex: 7,
