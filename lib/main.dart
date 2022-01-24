@@ -23,14 +23,14 @@ class Home extends StatelessWidget {
             ), //Container
           ), //Expanded
           Expanded(
-            Container(
+            child: Container(
               padding: EdgeInsets.all(30.0),
               color: Colors.pinkAccent,
               child: Text("2"),
             ), //Container
           ), //Expanded
           Expanded(
-            Container(
+            child: Container(
               padding: EdgeInsets.all(30.0),
               color: Colors.amber,
               child: Text("3"),
