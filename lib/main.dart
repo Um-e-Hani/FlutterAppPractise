@@ -15,11 +15,13 @@ class Home extends StatelessWidget {
       ), //AppBar
       body: Row(
         children: <Widget>[
-          Container(
-            padding: EdgeInsets.all(30.0),
-            color: Colors.cyan,
-            child: Text("1"),
-          ), //Container
+          Expanded(
+            Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.cyan,
+              child: Text("1"),
+            ), //Container
+          ), //Expanded
           Container(
             padding: EdgeInsets.all(30.0),
             color: Colors.pinkAccent,
