@@ -16,7 +16,7 @@ class Home extends StatelessWidget {
       body: Row(
         children: <Widget>[
           Expanded(
-            Container(
+            child: Container(
               padding: EdgeInsets.all(30.0),
               color: Colors.cyan,
               child: Text("1"),
