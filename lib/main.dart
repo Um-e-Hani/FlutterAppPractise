@@ -15,9 +15,21 @@ class Home extends StatelessWidget {
       ), //AppBar
       body: Column(
         children: <Widget>[
-          Container(), //Container
-          Container(), //Container
-          Container(), //Container
+          Container(
+            padding: EdgeInsets.all(30.0),
+            color: Colors.cyan,
+            child: Text("1"),
+          ), //Container
+          Container(
+            padding: EdgeInsets.all(30.0),
+            color: Colors.pinkAccent,
+            child: Text("2"),
+          ), //Container
+          Container(
+            padding: EdgeInsets.all(30.0),
+            color: Colors.amber,
+            child: Text("3"),
+          ), //Container
         ],
       ), //Row
     ); //Scaffold
