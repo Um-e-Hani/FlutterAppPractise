@@ -16,6 +16,7 @@ class Home extends StatelessWidget {
       body: Row(
         children: <Widget>[
           Expanded(
+            flex: 3,
             child: Container(
               padding: EdgeInsets.all(30.0),
               color: Colors.cyan,
@@ -23,6 +24,7 @@ class Home extends StatelessWidget {
             ), //Container
           ), //Expanded
           Expanded(
+            flex: 2,
             child: Container(
               padding: EdgeInsets.all(30.0),
               color: Colors.pinkAccent,
@@ -30,6 +32,7 @@ class Home extends StatelessWidget {
             ), //Container
           ), //Expanded
           Expanded(
+            flex: 1,
             child: Container(
               padding: EdgeInsets.all(30.0),
               color: Colors.amber,
