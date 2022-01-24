@@ -16,23 +16,24 @@ class Home extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: <Widget>[
-              Expanded(
-                flex: 7,
-                child: Image.asset("assets/scenery2.jpg"),
-              ), // Expanded
-              Expanded(
-                flex: 1,
-                child: Container(
-                  padding: EdgeInsets.all(30.0),
-                  color: Colors.cyan,
-                  child: Text("1"),
-                ), //Container
-              ), //Expanded
-            ],
-          ), //Row
+          Expanded(
+            child: Row(
+              children: <Widget>[
+                Expanded(
+                  flex: 7,
+                  child: Image.asset("assets/scenery2.jpg"),
+                ), // Expanded
+                Expanded(
+                  flex: 1,
+                  child: Container(
+                    padding: EdgeInsets.all(30.0),
+                    color: Colors.cyan,
+                    child: Text("1"),
+                  ), //Container
+                ), //Expanded
+              ],
+            ), //Row
+          ), //Expanded
           Expanded(
             flex: 5,
             child: Container(
