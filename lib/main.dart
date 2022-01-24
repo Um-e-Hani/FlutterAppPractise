@@ -15,7 +15,9 @@ class Home extends StatelessWidget {
       ), //AppBar
       body: Row(
         children: <Widget>[
-          Image.asset("assets/scenery2.jpg"),
+          Expanded(
+            child: Image.asset("assets/scenery2.jpg"),
+          ), // Expanded
           Expanded(
             flex: 3,
             child: Container(
