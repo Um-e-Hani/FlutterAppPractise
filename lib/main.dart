@@ -22,16 +22,20 @@ class Home extends StatelessWidget {
               child: Text("1"),
             ), //Container
           ), //Expanded
-          Container(
-            padding: EdgeInsets.all(30.0),
-            color: Colors.pinkAccent,
-            child: Text("2"),
-          ), //Container
-          Container(
-            padding: EdgeInsets.all(30.0),
-            color: Colors.amber,
-            child: Text("3"),
-          ), //Container
+          Expanded(
+            Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.pinkAccent,
+              child: Text("2"),
+            ), //Container
+          ), //Expanded
+          Expanded(
+            Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.amber,
+              child: Text("3"),
+            ), //Container
+          ), //Expanded
         ],
       ), //Row
     ); //Scaffold
